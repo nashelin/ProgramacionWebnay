@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica6</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" 
+      href="css/estilo.css">
+      <script src="js/jquery.min.js "></script>
+      <script type="text/javascript" src="js/Formulario.js"></script>
+       <script type="text/javascript" src="js/funciones.js"></script>
+   
+  </head>
+  </head>
+  <body >
+   <h1>FINANCIAMIENTO DE UN PRESTAMO </h1>
+  <form name="calc">
+    
+
+    <div class="container" >
+    <hr>
+  </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="container text-right">
+        <div class="row">
+            
+                <div class="col-md-1"></div>
+                <div class ="col-md-3">
+                            <div class="form-group">
+                            <label>Ingrese Monto </label>
+                            </div>
+                </div>
+
+                <div class="col-md-4">
+                    <input class="form-control"
+                            type="number" name="monto" id="monto"
+                            required>
+                </div>
+
+                
+        </div>
+
+        <div class="row">
+            
+                <div class="col-md-1"></div>
+                <div class ="col-md-3">
+                            <div class="form-group">
+                            <label>Meses</label>
+                            </div>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control"
+                            type="number" name="mes" id="mes"
+                            required>
+
+                </div>
+        </div>
+
+
+        <div class="container" >
+    <hr>
+  </div>
+
+
+        <div class="row">
+
+    
+                <div class="col-md-1"></div>
+                <div class ="col-md-3">
+                            <div class="form-group">
+                            <label>Valor Total del Préstamo</label>
+                            </div>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control"
+                            type="text" name="total" id="total"
+                            required placeholder="$">
+
+                </div>
+        </div>
+
+        <div class="row">
+            
+                <div class="col-md-1"></div>
+                <div class ="col-md-3">
+                            <div class="form-group">
+                            <label>Pago Mensual</label>
+                            </div>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control"
+                            type="text" name="pago" id="pago"
+                            required placeholder="$">
+
+                </div>
+                
+        </div>
+
+
+       </form>
+
+        <div class="row">
+        <div ali="center" name="calcular" id="calcular">
+                          <input type="button" value="Calcular"
+                onclick="calcula('+')"
+                class= "btn btn-primary">
+
+                        </div>
+            
+        </div>
+    </div>
+
+         </div>
+
+         
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </body>
+</html>

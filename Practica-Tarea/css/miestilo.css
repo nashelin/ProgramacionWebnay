@@ -1,0 +1,48 @@
+.container text-center{
+	 background-image: url("");
+	 background:#CC0000 ;
+
+}
+
+.container text-center{
+	 background-image: url("");
+	 background:#CC0000 ;
+
+}
+
+
+
+.footer-container{
+
+	border-bottom:3px solid #660000;
+	background: #660000;
+
+}
+
+.header-container1{
+
+	border-bottom: 10px solid #660000;
+	background: #660000;
+
+}
+.header-container{
+	border-bottom: 20px solid #990000;/*El borde de mi header container*/
+	moz-box-shadow: 10px 12px 5px #000000;
+             -webkit-box-shadow: 10px 12px 5px #000000;
+              box-shadow: 10px 12px 5px #000000;
+}
+
+.title1{
+	color: #ffff00;
+}
+.title2{
+	color:white;
+
+}
+
+
+.header-container
+{
+	background: #CC0000;
+
+}

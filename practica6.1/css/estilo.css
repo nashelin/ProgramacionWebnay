@@ -1,0 +1,25 @@
+
+.container{
+	width: 100%;
+	margin: 0 5%;
+}
+h1 {
+font-family: Arial, Sans-serif;
+   font-size: 25pt;
+   color:#000066;
+   text-align: center;
+}
+
+label{
+   font-family: Arial, Sans-serif;
+   font-size:10pt;
+   color:#990000;
+}
+p{
+   font-size: 800%;
+}
+
+body { 
+  background-image: url("Img/fondo.jpg");
+  background-position: 100% ;
+}

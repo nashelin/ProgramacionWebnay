@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica5</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script type="text/javascript">
+    	//alert('Hola mndo');
+    	/* comentarios */
+    	
+
+    	function calcula(operacion){
+    		var F = document.calc.F.value;
+    		
+    		alert(F);
+    		
+    		var result = eval((F-32)*5/9);
+    		document.calc.resultado.value = result;
+    	}
+
+    
+    </script>
+
+  </head>
+  <body>
+      <font face="arial">
+        <h1>Conversion de Grados Fahrenheit a Celsius</h1>
+    </font>
+    
+
+    <div class="container text-center">
+
+    		
+    <div class="row">
+    		<div class="col-md-6">
+    				<form name="calc">
+    					<label for="F">Grados Fahrenheit</label>
+    					<input type="number" value="0" name="F" 
+    							id="F"
+    							class="form-control text-center">
+    					
+    					<input type="button" value=" Convertir "
+    						onclick="calcula( )" 
+    						class="btn btn-success" >
+    					
+    					<input type="text" value="" 
+    					name="resultado" placeholder="Resultado"
+    						class="form-control text-center">
+    				</form>
+    		</div>	
+    		<div class="col-md-6">
+    				
+    		</div>
+
+    </div>
+
+    </div>
+
+    </body>
+</html>

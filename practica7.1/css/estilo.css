@@ -1,0 +1,10 @@
+body {
+ background-image: url("Img/fondo.jpg");
+}
+
+h1 {
+font-family: Arial, Sans-serif;
+   font-size: 25pt;
+   color:	#FFFFFF;
+   text-align: center;
+}
